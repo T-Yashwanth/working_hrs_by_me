@@ -1,3 +1,4 @@
+```bash
 my_project/
 │
 ├── src/
@@ -15,7 +16,30 @@ my_project/
 ├──work_hr_me\ #python virtual env directory
 └──data
     └── config.yaml   #contain data
+```
 
+- create a venv 
+```bash
+python -m venv work_hrs_me
+```
+
+- Activate Venv
+```bash
+work_hrs_me\Scripts\activate
+````
+
+- install the requirements.txt
+```bash
+pip install -r requiremnts.txt
+```
+
+- edit your data in the config.yaml file in the data folder. Remember always to put your data in the data folder and name it as config.yaml if not give the path in the config_loader.py file
+
+
+- run the main.py 
+```bash
+python main.py
+```
 
 step 1: 
     wrote yaml loader
