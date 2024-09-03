@@ -1,0 +1,35 @@
+start_date: '2024-08-01'
+end_date: '2024-08-31'
+
+lunch_duration: 60  # in minutes
+
+schedule:
+  monday:
+    start_time: '09:00 AM'
+    end_time: '06:30 PM'
+  tuesday:
+    start_time: '09:00 AM'
+    end_time: '06:30 PM'
+  wednesday:
+    start_time: '09:00 AM'
+    end_time: '06:30 PM'
+  thursday:
+    start_time: '09:00 AM'
+    end_time: '05:00 PM'
+  friday:
+    start_time: '09:00 AM'
+    end_time: '06:30 PM'
+  saturday:
+    start_time: '09:00 AM'
+    end_time: '01:00 PM'
+
+
+leaves:
+  - '2024-08-03'
+  - '2024-08-26'
+
+custom_hours: #if you dont have any custom hours put the - as a list so the 
+
+#  '2024-08-15':  # Example of custom hours on a specific day
+#    start_time: '09:00 AM'
+#    end_time: '03:00 PM'
